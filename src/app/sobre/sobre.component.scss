@@ -1,0 +1,33 @@
+.sobre-empresa {
+    background: url('https://source.unsplash.com/1600x900/?business,technology') no-repeat center center;
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    height: 100vh; /* Preenche a altura total da tela */
+  
+    /* Sobreposição escura para melhorar a legibilidade */
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); /* Sobreposição com transparência */
+      z-index: 1;
+    }
+  
+    /* Estilos para o conteúdo */
+    .container {
+      z-index: 2; /* Garante que o texto fique acima da sobreposição */
+    }
+  
+    h1 {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 1.25rem;
+    }
+  }
+  

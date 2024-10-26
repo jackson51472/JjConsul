@@ -1,0 +1,25 @@
+nav {
+    padding: 10px 30px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navbar-toggler {
+    position: absolute;
+    right: 15px;
+  }
+  
+  .nav-link {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #74b9ff;
+  }
+  
