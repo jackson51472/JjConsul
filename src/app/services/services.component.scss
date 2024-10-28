@@ -1,0 +1,49 @@
+// Fundo da seção de serviços
+.services-container {
+  background: linear-gradient(to bottom, #E3DDD5, #D7D2CB);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+// Título estilizado
+h2 {
+  color: #2d3436;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  letter-spacing: 1.5px;
+}
+
+// Estilo das caixas de serviço
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  height: 200px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+// Cores distintas para cada serviço
+.service-card-0 {
+  background-color: #0984e3; // Azul
+}
+
+.service-card-1 {
+  background-color: #55efc4; // Verde claro
+}
+
+.service-card-2 {
+  background-color: #fdcb6e; // Amarelo
+}
+
+.service-card-3 {
+  background-color: #d63031; // Vermelho
+}

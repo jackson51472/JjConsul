@@ -1,25 +1,40 @@
-nav {
-    padding: 10px 30px;
-  }
-  
-  .navbar-brand {
-    font-size: 1.7rem;
-    font-weight: bold;
-    color: white;
-  }
-  
-  .navbar-toggler {
-    position: absolute;
-    right: 15px;
-  }
-  
-  .nav-link {
-    font-size: 1.5rem;
-    margin-left: 15px;
-    transition: color 0.3s;
-  }
-  
-  .nav-link:hover {
-    color: #74b9ff;
-  }
-  
+/* Estilo geral do header */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F5F5F5; /* Fundo escuro */
+  padding: 10px 30px;
+  border-bottom: 4px solid #FFD700; /* Linha amarela */
+}
+
+/* Logo */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+}
+
+/* Links de navegação */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #333333 ;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #FFD700; /* Amarelo para hover */
+}
+
+.fa-instagram {
+  font-size: 22px;
+}
